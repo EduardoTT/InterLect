@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lecture Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qV-Vi-B2D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lecture Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qV-Vi-B2D">
                                 <rect key="frame" x="106" y="100" width="108" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="108" id="aVe-Xu-fEc"/>
@@ -38,7 +38,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VM-wL-sq9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VM-wL-sq9">
                                 <rect key="frame" x="122" y="195" width="76" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="c3Y-jv-PHY"/>
@@ -60,7 +60,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tJW-Ac-kH0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tJW-Ac-kH0">
                                 <rect key="frame" x="45" y="129" width="236" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="lZM-XP-F2g"/>
@@ -81,7 +81,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zci-3m-uzx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zci-3m-uzx">
                                 <rect key="frame" x="45" y="224" width="236" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="JOZ-Ks-t19"/>
@@ -102,7 +102,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaY-bQ-0qf">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaY-bQ-0qf">
                                 <rect key="frame" x="148" y="366" width="37" height="30"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.33725490200000002" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -110,7 +110,7 @@
                                     <constraint firstAttribute="width" constant="181" id="YoB-rF-L48"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
-                                <state key="normal" title="Enter">
+                                <state key="normal" title="Enter" backgroundImage="Background">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -156,21 +156,21 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="W5j-Rb-wuV"/>
-                                <exclude reference="aeV-Rb-0fj"/>
-                                <exclude reference="eIY-Si-GwP"/>
                                 <exclude reference="Td4-r7-mhS"/>
                                 <exclude reference="ZAu-gW-eQW"/>
                                 <exclude reference="er5-ju-pjM"/>
                                 <exclude reference="s0y-S6-DfY"/>
-                                <exclude reference="3o8-S6-n1q"/>
-                                <exclude reference="Dzx-K8-gOf"/>
-                                <exclude reference="TpG-Pf-crg"/>
-                                <exclude reference="s6a-25-Eyx"/>
+                                <exclude reference="W5j-Rb-wuV"/>
+                                <exclude reference="aeV-Rb-0fj"/>
+                                <exclude reference="eIY-Si-GwP"/>
                                 <exclude reference="1AR-ke-AVp"/>
                                 <exclude reference="NU8-zt-vFR"/>
                                 <exclude reference="V5D-zO-iWq"/>
                                 <exclude reference="l2H-mY-MMN"/>
+                                <exclude reference="3o8-S6-n1q"/>
+                                <exclude reference="Dzx-K8-gOf"/>
+                                <exclude reference="TpG-Pf-crg"/>
+                                <exclude reference="s6a-25-Eyx"/>
                                 <exclude reference="B5A-cY-2tJ"/>
                                 <exclude reference="Keg-T4-4Ir"/>
                                 <exclude reference="ODe-DA-nIs"/>
@@ -180,21 +180,21 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
-                                <include reference="W5j-Rb-wuV"/>
-                                <include reference="aeV-Rb-0fj"/>
-                                <include reference="eIY-Si-GwP"/>
                                 <include reference="Td4-r7-mhS"/>
                                 <include reference="ZAu-gW-eQW"/>
                                 <include reference="er5-ju-pjM"/>
                                 <include reference="s0y-S6-DfY"/>
-                                <include reference="3o8-S6-n1q"/>
-                                <include reference="Dzx-K8-gOf"/>
-                                <include reference="TpG-Pf-crg"/>
-                                <include reference="s6a-25-Eyx"/>
+                                <include reference="W5j-Rb-wuV"/>
+                                <include reference="aeV-Rb-0fj"/>
+                                <include reference="eIY-Si-GwP"/>
                                 <include reference="1AR-ke-AVp"/>
                                 <include reference="NU8-zt-vFR"/>
                                 <include reference="V5D-zO-iWq"/>
                                 <include reference="l2H-mY-MMN"/>
+                                <include reference="3o8-S6-n1q"/>
+                                <include reference="Dzx-K8-gOf"/>
+                                <include reference="TpG-Pf-crg"/>
+                                <include reference="s6a-25-Eyx"/>
                                 <include reference="B5A-cY-2tJ"/>
                                 <include reference="Keg-T4-4Ir"/>
                                 <include reference="ODe-DA-nIs"/>
@@ -265,7 +265,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ny0-SG-Qpx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ny0-SG-Qpx">
                                 <rect key="frame" x="16" y="129" width="283" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="NEo-tH-47B"/>
@@ -352,10 +352,10 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyM-kx-dxy">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyM-kx-dxy">
                                 <rect key="frame" x="0.0" y="64" width="320" height="235"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.63921568630000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -363,7 +363,7 @@
                                     <constraint firstAttribute="width" constant="320" id="bb9-o8-jrf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <state key="normal" title="Watch Lecture">
+                                <state key="normal" title="Watch Lecture" backgroundImage="Background2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -383,7 +383,7 @@
                                     <segue destination="UXP-r5-OlZ" kind="show" id="AWJ-G5-he4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9i-le-hnt">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9i-le-hnt">
                                 <rect key="frame" x="0.0" y="300" width="211" height="120"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.33725490200000002" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -391,7 +391,7 @@
                                     <constraint firstAttribute="height" constant="252" id="vOa-rh-uSP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <state key="normal" title="Create Lecture">
+                                <state key="normal" title="Create Lecture" backgroundImage="Background">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -467,7 +467,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lecture Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjs-FK-oT0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lecture Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjs-FK-oT0">
                                 <rect key="frame" x="106" y="95" width="108" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="KD6-VU-buM"/>
@@ -489,7 +489,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P9g-yN-qtb">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P9g-yN-qtb">
                                 <rect key="frame" x="49" y="132" width="232" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="vvx-n3-wJm"/>
@@ -510,7 +510,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nLK-hV-xyJ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nLK-hV-xyJ">
                                 <rect key="frame" x="44" y="334" width="232" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="9U0-Ga-T2o"/>
@@ -531,7 +531,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmA-xl-aVo">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmA-xl-aVo">
                                 <rect key="frame" x="137" y="456" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.63921568630000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -539,7 +539,7 @@
                                     <constraint firstAttribute="width" constant="181" id="e30-Yw-gUf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
-                                <state key="normal" title="Create">
+                                <state key="normal" title="Create" backgroundImage="Background2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -558,7 +558,7 @@
                                     <segue destination="KeW-jC-QnA" kind="show" id="MLU-xV-gHb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Audience's Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljP-EJ-bpF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Audience's Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljP-EJ-bpF">
                                 <rect key="frame" x="77" y="305" width="166" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="kpi-7x-Mp2"/>
@@ -580,7 +580,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Panelist's Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYD-qH-ju5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Panelist's Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYD-qH-ju5">
                                 <rect key="frame" x="83" y="203" width="155" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="155" id="bhD-ea-hma"/>
@@ -602,7 +602,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mwQ-OG-gXH">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mwQ-OG-gXH">
                                 <rect key="frame" x="49" y="232" width="232" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EEt-5g-bbg"/>
@@ -655,13 +655,13 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="DPK-m9-06q"/>
-                                <exclude reference="FjM-mh-Cyf"/>
-                                <exclude reference="hRb-sh-Wx2"/>
                                 <exclude reference="R8W-bu-g4x"/>
                                 <exclude reference="Rsv-S0-yjA"/>
                                 <exclude reference="W1R-EQ-kCP"/>
                                 <exclude reference="wwU-ff-jxj"/>
+                                <exclude reference="DPK-m9-06q"/>
+                                <exclude reference="FjM-mh-Cyf"/>
+                                <exclude reference="hRb-sh-Wx2"/>
                                 <exclude reference="7wY-lt-2Pt"/>
                                 <exclude reference="ZlM-xw-mZY"/>
                                 <exclude reference="wxf-rp-e1m"/>
@@ -685,13 +685,13 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
-                                <include reference="DPK-m9-06q"/>
-                                <include reference="FjM-mh-Cyf"/>
-                                <include reference="hRb-sh-Wx2"/>
                                 <include reference="R8W-bu-g4x"/>
                                 <include reference="Rsv-S0-yjA"/>
                                 <include reference="W1R-EQ-kCP"/>
                                 <include reference="wwU-ff-jxj"/>
+                                <include reference="DPK-m9-06q"/>
+                                <include reference="FjM-mh-Cyf"/>
+                                <include reference="hRb-sh-Wx2"/>
                                 <include reference="7wY-lt-2Pt"/>
                                 <include reference="ZlM-xw-mZY"/>
                                 <include reference="wxf-rp-e1m"/>
@@ -727,6 +727,10 @@
             <point key="canvasLocation" x="876" y="725"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="508" height="470"/>
+        <image name="Background2" width="508" height="470"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="G2t-0R-8Dv"/>
     </inferredMetricsTieBreakers>
