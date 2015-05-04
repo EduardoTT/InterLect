@@ -40,14 +40,14 @@ class WatchViewCtrl:UIViewController {
         }
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "segueFromWatch"
-        {
-            if let destinationVC = segue.destinationViewController as? QuestionsTableViewCtrl{
-                destinationVC.isPanelist = self.isPanelist
-                destinationVC.nameLecture = self.name.text
-            }
-        }
-    }
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if segue.identifier == "segueFromWatch"
+//        {
+//            if let destinationVC = segue.destinationViewController as? QuestionsTableViewCtrl{
+//                destinationVC.isPanelist = self.isPanelist
+//                destinationVC.nameLecture = self.name.text
+//            }
+//        }
+//    }
 
 }

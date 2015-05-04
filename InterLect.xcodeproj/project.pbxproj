@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4512C0311AF83C5F0069C28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4512C02F1AF83C5F0069C28B /* Main.storyboard */; };
+		4512C0351AF83DE70069C28B /* QuestionsTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4512C0341AF83DE70069C28B /* QuestionsTableViewCtrl.swift */; };
+		4512C0381AF83E3D0069C28B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4512C0361AF83E3D0069C28B /* LaunchScreen.xib */; };
 		A07EA7641AF7FAE000DF32B3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A07EA7631AF7FAE000DF32B3 /* libicucore.dylib */; };
 		A07EA7661AF7FAEF00DF32B3 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A07EA7651AF7FAEF00DF32B3 /* libc++.dylib */; };
 		A07EA7681AF7FAF900DF32B3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07EA7671AF7FAF900DF32B3 /* CFNetwork.framework */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4512C0301AF83C5F0069C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4512C0341AF83DE70069C28B /* QuestionsTableViewCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCtrl.swift; sourceTree = "<group>"; };
+		4512C0371AF83E3D0069C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A07EA7631AF7FAE000DF32B3 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		A07EA7651AF7FAEF00DF32B3 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		A07EA7671AF7FAF900DF32B3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -108,6 +114,7 @@
 		A0F964AC1AF6A52300FCA5BB /* InterLect */ = {
 			isa = PBXGroup;
 			children = (
+				4512C0341AF83DE70069C28B /* QuestionsTableViewCtrl.swift */,
 				A0F964AF1AF6A52300FCA5BB /* AppDelegate.swift */,
 				A0F964B11AF6A52300FCA5BB /* ViewController.swift */,
 				A0F964D11AF6BB0C00FCA5BB /* CreateViewCtrl.swift */,
@@ -115,6 +122,8 @@
 				A0F964D71AF6BBCE00FCA5BB /* AddQuestionViewCtrl.swift */,
 				A0F964D91AF6BD0500FCA5BB /* Lecture.swift */,
 				A0F964DB1AF6BD3000FCA5BB /* DAOLecture.swift */,
+				4512C0361AF83E3D0069C28B /* LaunchScreen.xib */,
+				4512C02F1AF83C5F0069C28B /* Main.storyboard */,
 				A0F964B61AF6A52300FCA5BB /* Images.xcassets */,
 				A0F964AD1AF6A52300FCA5BB /* Supporting Files */,
 				A07EA7731AF7FFA200DF32B3 /* InterLect-Bridging-Header.h */,
@@ -227,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4512C0381AF83E3D0069C28B /* LaunchScreen.xib in Resources */,
 				A0F964B71AF6A52300FCA5BB /* Images.xcassets in Resources */,
+				4512C0311AF83C5F0069C28B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +258,7 @@
 			files = (
 				A0F964B21AF6A52300FCA5BB /* ViewController.swift in Sources */,
 				A0F964D41AF6BB4500FCA5BB /* WatchViewCtrl.swift in Sources */,
+				4512C0351AF83DE70069C28B /* QuestionsTableViewCtrl.swift in Sources */,
 				A0F964B01AF6A52300FCA5BB /* AppDelegate.swift in Sources */,
 				A0F964DC1AF6BD3000FCA5BB /* DAOLecture.swift in Sources */,
 				A0F964D21AF6BB0C00FCA5BB /* CreateViewCtrl.swift in Sources */,
@@ -272,6 +284,25 @@
 			targetProxy = A0F964C01AF6A52300FCA5BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4512C02F1AF83C5F0069C28B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4512C0301AF83C5F0069C28B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4512C0361AF83E3D0069C28B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4512C0371AF83E3D0069C28B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A0F964C71AF6A52300FCA5BB /* Debug */ = {

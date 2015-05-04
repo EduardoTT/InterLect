@@ -36,7 +36,7 @@ class QuestionsTableViewCtrl:UITableViewController {
         
         cell.textLabel?.font = UIFont(name: "Futura", size: 14.0)
         cell.textLabel?.numberOfLines = 0
-        tableView.rowHeight = 83
+        tableView.rowHeight = 70
         
         cell.textLabel?.text = question[indexPath.row]
         cell.textLabel?.textColor = UIColor.whiteColor()
