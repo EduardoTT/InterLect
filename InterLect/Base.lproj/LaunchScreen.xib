@@ -36,9 +36,20 @@
                 <constraint firstAttribute="bottom" secondItem="CBY-Ss-Yiy" secondAttribute="bottom" id="fA4-pX-ZBT"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="18" id="ijm-Yi-JGe"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="529" id="lAg-tV-tN4"/>
+                <constraint firstAttribute="centerX" secondItem="CBY-Ss-Yiy" secondAttribute="centerX" id="zBa-oG-zTC"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="zBa-oG-zTC"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="zBa-oG-zTC"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>

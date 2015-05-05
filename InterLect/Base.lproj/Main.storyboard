@@ -452,7 +452,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyM-kx-dxy">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyM-kx-dxy">
                                 <rect key="frame" x="0.0" y="64" width="320" height="235"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.63921568630000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -460,7 +460,7 @@
                                     <constraint firstAttribute="width" constant="320" id="bb9-o8-jrf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <state key="normal" title="Watch Lecture" backgroundImage="Background2">
+                                <state key="normal" title=" Watch Lecture" image="Watch" backgroundImage="Background2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -471,6 +471,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                     <mask key="constraints">
                                         <include reference="YZ0-Rz-sGP"/>
                                         <include reference="bb9-o8-jrf"/>
@@ -480,7 +481,7 @@
                                     <segue destination="UXP-r5-OlZ" kind="show" id="AWJ-G5-he4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9i-le-hnt">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9i-le-hnt">
                                 <rect key="frame" x="0.0" y="300" width="211" height="120"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.33725490200000002" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -488,7 +489,7 @@
                                     <constraint firstAttribute="height" constant="252" id="vOa-rh-uSP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <state key="normal" title="Create Lecture" backgroundImage="Background">
+                                <state key="normal" title=" Create Lecture" image="Create" backgroundImage="Background">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -499,6 +500,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                     <mask key="constraints">
                                         <include reference="QXa-Os-SoZ"/>
                                         <include reference="vOa-rh-uSP"/>
@@ -828,7 +830,9 @@
         <image name="ArrowIcon" width="38" height="136"/>
         <image name="Background" width="508" height="470"/>
         <image name="Background2" width="508" height="470"/>
+        <image name="Create" width="89" height="84"/>
         <image name="GrayLayer" width="319" height="251"/>
+        <image name="Watch" width="85" height="77"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="MLU-xV-gHb"/>
